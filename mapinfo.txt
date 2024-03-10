@@ -1,0 +1,10 @@
+episode range{name="Hideous Стрельбище" noskillmenu}
+map range "Стрельбище"{
+	sky1="sky1"
+	music=""
+	resetinventory
+	nointermission
+	noautosavehint
+	allowrespawn
+	next="range"
+}

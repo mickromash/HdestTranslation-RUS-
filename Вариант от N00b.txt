@@ -1,0 +1,968 @@
+[ru]
+TAG_ARMOUR="броня"; //в русском переводе этот блок не нужен, просто автор британец, у них же armour, а здесь он вписывает вариант для американцев.
+TAG_GARRISONARMOUR="гарнизонная броня";
+TAG_BATTLEARMOUR="боевая броня";
+TAG_GARRISONARMOUR_SPARE="гарнизонная броня (запасная)";
+TAG_BATTLEARMOUR_SPARE="боевая броня (запасная)";
+PICKUP_GARRISONARMOUR="Поднял гарнизонную броню.";
+PICKUP_BATTLEARMOUR="Поднял боевую броню.";
+HDCONTROLS_STRIPARMOUR="Снять броню";
+
+
+[ru]
+HD_SENTENCEBREAK=". ";
+
+MNU_CHOOSECLASS="ВЫБЕРИТЕ СТАРТОВЫЙ НАБОР:";
+
+PLYRMNU_PLAYERCLASS="Стартовый набор";
+PLYRMNU_PLAYERGENDER="Местоимение";
+OPTVAL_MALE="Он";
+OPTVAL_FEMALE="Она";
+OPTVAL_NEUTRAL="They"; //В русском языке нет singular they.
+OPTVAL_OTHER="Оно";
+
+STARTUP1="        \cq~ \cr* \cq~";
+STARTUP2=" \cyHideous Destructor \cx4.10.0b";
+STARTUP3=" Прочтите мануал.";
+STARTUP4="       Веселитесь!";
+STARTUP5="        \cq~ \cr* \cq~";
+
+SKILL_BABY="Невзрачный";
+SKILL_EASY="Уродливый";
+SKILL_NORMAL="Гротескный";
+SKILL_HARD="Омерзительный";
+SKILL_NIGHTMARE="п р е л е с т н ы й";
+
+OB_BOT="%o умер.";
+
+// Zombies
+FN_WOLFSS="моряк";
+
+CC_MARINE="оператор";
+
+OB_MARINE="Оператора %o подстрелил другой оператор.";
+OB_MARINEHIT="Оператор %o нарушил личное пространство другого оператора.";
+
+OB_VULCZOMBIE="Оператор %o вылез прямо под огромную плотность огня зомби.";
+
+OB_SHOTGUNZOMBIE="Оператора %o застрелили жестокие головорезы, приспешники тирана."; //устойчивое выражение jack-booted thugs
+OB_SHOTZOMB_HIT="Оператора %o забили жестокие головорезы, приспешники тирана.";
+
+TAG_ZOMBSHOTGUN="Громила";
+
+OB_ZOMBRIFLE="Оператора %o застрелил зомби.";
+OB_ZOMBRIFLE_HIT="Оператора %o забил зомби.";
+
+TAG_BLURSPHEREZOMBIE="невидимый зомби";
+
+TAG_SQUADGHOST="Призрак";
+
+OB_ZOMBPISTOL="Оператор %o не смог добраться до зомби с пистолетом.";
+OB_ZOMBPISTOL_HIT="Оператора %o побил зомби с пистолетом.";
+
+OB_ZOMNAZI="%o подчинился команде \"Хальт!\"";
+
+// Demons
+OB_YOKAI="%o увидел ёкая.";
+TAG_YOKAI="ёкай";
+
+CC_IMPM="серпентин-огнемётчик";
+CC_IMPH="серпентин-лекарь";
+OB_IMP="Оператора %o зажарили серпентины.";
+OB_IMP_HIT="Из оператора %o сделали отбивную серпентины.";
+OB_IMPM="Оператор %o ощутил магию.";
+OB_IMPM_HIT="Оператор %o ощутил ВСЮ магию.";
+OB_IMPH="Оператор %o почувствовал злорадство.";
+OB_IMPH_HIT="Оператору %o было нужно второе мнение. \"Ну, как хочешь, — ты тоже урод,\" — сказали серпентины.";
+
+TAG_BARREL="бочка";
+TAG_FIRECAN="горящая бочка";
+OB_BARREL="Оператора %o раскатала бочка.";
+OB_FIRECAN="Оператору %o стоит попробовать снова. Всё-таки это горящая бочка-убийца, а не горящий почко-убийца!";//если не нравится, можете написать свой вариант ниже
+// Нормально, такие щутки обычно перевести очень тяжело.
+
+TAG_BABUIN="бабуин";
+OB_BABUIN="Оператора %o растерзал бабуин.";
+
+TAG_SPECBABUIN="замаскированный бабуин";
+
+TAG_NINJAPIRATE="ниндзя-пират";
+OB_NINJAPIRATE="Оператор %o помер.";
+
+TAG_PUTTO="путто";
+OB_PUTTI="Народ, налетай на кашу из %o!"; //В английском тексте бредятина какая-то.
+
+OB_HATCHLING="Оператора %o отключил детёныш.";
+
+OB_TRILOBITE="Оператора %o вывернул наизнанку Трилобит.";
+
+OB_COMBATSLUG="Оператора %o сжёг боевой слизень.";
+
+OB_BONER="Оператора %o взорвал Костян.";
+OB_BONERSLAP="Оператора %o забил Костян.";
+
+OB_TECHNOSPIDER="Оператора %o разворотил технопаук.";
+
+OB_MATRIBITE="Оператора %o порвал в клочья матрибайт.";
+OB_MATRIBITE_HIT="Оператору %o казалось, что этот демон не может атаковать в ближнем бою.";
+
+OB_NECROMANCER="Оператор %o познал мощь Некроманта.";
+
+OB_TECHNORANTULA="Оператора %o превзошёл Технотарантул."; //неточный перевод, и в игре почему-то Spider Mastermind.
+
+OB_CYBER="На операторе %o провёл эксперимент Трёхногий.";
+
+CC_FLAME="анимировать пламя";
+
+OB_FRIENDLY2="Оператору %k пора купить очки.";
+OB_SUICIDE="Оператор %o умер от аневризмы.";
+OB_KILLEDSELF="Оператор %o взвесил все риски.";
+OB_FALLING="Оператор %o испытал проблемы с торможением.";
+OB_DEFAULT="Поздравляем! Оператор %o умер.";
+OB_DERP="Оператора %o уничтожил DERP."; // не перевести буквально
+OB_HERP="Оператора %o уничтожил HERP.";
+OB_IED="Оператора %o анонимно взорвал оператор %k."; //шутка
+OB_BFG9000ID="Оператора %o ошеломил огромный зелёный плевок оператора %k.";
+OB_BFG9000="Оператора %o превратили в стекло. Ни с места, пока мы не поймём, кто (%k) это сделал!"; //видимо, взято откуда-то
+OB_BOSS="Оператор %o уж точно показал оператору %k, кто из них босс!";
+OB_BRONTO="Оператора %o запугал оператор %k из пушки \"Бронторнис\".";
+OB_ROCKET="Оператора %o задели осколки от выстрела оператора %k.";
+OB_LIB="Оператора %o освободил оператор %k.";
+OB_VULC="Оператор %o вылез прямо под огромную плотность огня оператора %k.";
+OB_ZM66="Позицию оператора %o взял штурмом оператор %k.";
+OB_SMG="Оператор %o задохнулся от пукалки оператора %k."; //была несколько другая щутка, но тоже пошлая
+OB_REVOLVER="Оператора %o убил оператор %k из шестиствольной пукалки.";
+OB_PISTOL="Оператора %o убил оператор %k из своей пукалки.";
+OB_FIST="Оператора %o вырубил оператор %k.";
+OB_THUNDERBUSTER="Оператора %o разворотил пучок частиц оператора %k.";
+OB_BLOOPER="Оператора %o оглушил оператор %k.";
+
+OB_AMMOBOX="Оператор %o не обратил внимания на Адмирала Акбара.";
+
+BS_PRECIOUS="Precious."; // Эти две строки вроде бы не используются.
+BS_PKUP="So precious in your sight.";
+
+// Tags below - [Ted]
+TAG_FIST="кулаки";
+TAG_PISTOL="пистолет";
+TAG_REVOLVER="револьвер";
+TAG_SMG="ПП";
+TAG_HUNTER="помповый дробовик";
+TAG_SLAYER="двуствольный дробовик";
+TAG_ZM66="штурмовая винтовка ZM66";
+TAG_VULC="Вулканетта";
+TAG_GL="гранатомёт";
+TAG_RL="ракетница";
+TAG_THUNDER="Громовержец"; //бустер — это booster, а здесь через u
+TAG_LIB="винтовка \"Освободитель\""; //в русском языке нет аналога battle rifle
+TAG_LIB_NOGL="винтовка \"Освободитель\" (без подствольника)";
+TAG_LIB_CLASSIC="винтовка \"Освободитель\" (классическая)";
+TAG_LIB_CLASSICNOGL="винтовка \"Освободитель\" (классическая, без подствольника)";
+TAG_BRONTO="пушка \"Бронторнис\"";
+TAG_BOSS="винтовка \"Босс\"";
+TAG_GREFRAG="осколочная граната";
+
+TAG_DERP="робот D.E.R.P.";
+TAG_HERP="робот H.E.R.P.";
+TAG_HERPINTERFACE="контроллер для H.E.R.P.";
+
+TAG_PISTOLAMMO="9 мм патрон";
+TAG_REVOLVERAMMO="патрон калибра .355"; //тоже 9-мм
+TAG_SHOTGUNSHELLS="патроны для дробовика";
+TAG_426AMMO="Стандартный 4,26 мм патрон UAC";
+TAG_7MMAMMO="7,76 мм патрон";
+TAG_7MMAMMOR="7,76 мм патрон (снаряжён повторно)";
+TAG_7MCASING="7,76 мм гильза";
+TAG_BRONTOSHELL="патрон для Бронторниса";
+TAG_ROCKETGRENADE="ракета-граната";
+TAG_HEATROCKET="кумулятивная ракета";
+TAG_DUDROCKET="неразорвавшаяся ракета";
+
+TAG_9MMAG15="9мм пистолетный магазин";
+TAG_4MMAG="4,26мм Стандартный магазин UAC";
+TAG_9MMAG30="9мм магазин для ПП";
+TAG_7MMAG="7,76мм магазин";
+TAG_7MCLIP="7,76мм обойма";
+TAG_BATTERY="Батарея";
+
+TAG_BACKPACK="Рюкзак";
+TAG_LITEAMP="Очки усиления света";
+TAG_RADSUIT="Защитный костюм";
+TAG_AMMOBOX="Коробка патронов";
+TAG_AMMOBOXDISARMED="Обезвреженная коробка патронов";
+TAG_KEYS="ключи";
+TAG_MAPGIVER="карта местности";
+
+TAG_BLOODPACK="синтетическая кровь";
+TAG_DOORBUSTER="комплект для выбивания дверей"; //не бустер
+TAG_IEDKIT="набор для взрывного устройства";
+TAG_JETPACK="реактивный ранец";
+TAG_LADDER="переносная лестница";
+TAG_RELOADER="пресс для снаряжения патронов 7,76 мм";
+
+TAG_POTION="эктоплазматический полип";
+TAG_TALISMAN="талисман призывателя";
+
+TAG_STIMPACK="стимулятор";
+TAG_ZERKPACK="берсерк";
+TAG_MEDIKIT="аптечка";
+TAG_2NDFLESHAPP="Аппликатор Запасной Плоти"; //???
+TAG_BANDAGES="импровизированные бинты";
+
+TAG_ARMOUR="броня";
+TAG_GARRISONARMOUR="гарнизонная броня";
+TAG_BATTLEARMOUR="боевая броня";
+TAG_GARRISONARMOUR_SPARE="гарнизонная броня (запасная)";
+TAG_BATTLEARMOUR_SPARE="боевая броня (запасная)";
+
+TAG_PICKUPMANAGER="Подобранные предметы";
+
+// Pickups below - [Ted]
+PICKUP_BFG9000="Получена SKAG 1337!";
+PICKUP_BOSSRIFLE="Получена винтовка со скользящим затвором!";
+PICKUP_BRONTO="Получен Бронторнис!";
+PICKUP_RL="Получен ракетомёт!";
+PICKUP_THUNDERBUSTER="Получена винтовка, стреляющая пучком частиц!"; //криво
+PICKUP_LIB="Получена винтовка!";
+PICKUP_VULC="Получена Вулканетта!";
+PICKUP_VULC_MEH="Получена Вулканетта.";
+PICKUP_VULC_PERFECT=" Кара приближается, слюнтяи!";
+PICKUP_VULC_WORN=" Она видала и лучшие времена.";
+PICKUP_VULC_DAMAGED=" Ей срочно нужен ремонт.";
+PICKUP_VULC_BROKEN=" Может быть, из неё получится достать патроны.";
+PICKUP_ZM66="Получена штурмовая винтовка!";
+PICKUP_SEMIZM66="Получена полуавтоматическая винтовка. Пора устроить бойню!"; //интересно, что имел в виду автор?
+PICKUP_SLAYER="Получен двуствольный дробовик!";
+PICKUP_HUNTER="Получен помповый дробовик!";
+PICKUP_HUNTER_AUTO=" Вы замечаете рядом с переключателем режима огня отметины от какого-то инструмента...";
+PICKUP_HUNTER_EXPORT=" Где на этом переключатель режима огня!?";
+PICKUP_SMG="Получен пистолет-пулемёт!";
+PICKUP_REVOLVER="Получен револьвер!";
+PICKUP_PISTOL="Получен пистолет!";
+PICKUP_CHAINSAW="Получена бензопила! Пора искать мясо!";
+PICKUP_GRENADE="Получена ручная осколочная граната.";
+PICKUP_BLOOPER="Получен гранатомёт!";
+
+PICKUP_DERP="Получен робот DERP (Защита, Бой, Разведка, Патруль)."; //
+PICKUP_DERP_BROKEN=" Он повреждён.";
+PICKUP_HERP="Получен робот HERP (Тяжёлая Поворотная Огневая Платформа).";
+PICKUP_HERP_BROKEN=" Он повреждён.";
+
+PICKUP_PistolAmmo="Получен 9 мм патрон.";
+PICKUP_9MBOX="Получены 9 мм патроны.";
+PICKUP_RevolverAmmo="Получен патрон калибра .355.";
+PICKUP_355BOX="Получены патроны калибра .355.";
+PICKUP_ShotgunShell1="Получен патрон для дробовика.";
+PICKUP_ShotgunShell2="Получены патроны для дробовика.";
+PICKUP_ShellBox=PICKUP_ShotgunShell2; //А я даже и не знал, что так можно...
+PICKUP_426Round1="Получен Стандартный 4,26 мм патрон UAC.";
+PICKUP_426Round2="Получена россыпь Стандартных 4,26 мм патронов UAC.";
+PICKUP_7MMAMMO="Получен 7,76 мм патрон.";
+PICKUP_7MMAMMOR="Получен переснаряженный 7,76 мм патрон.";
+PICKUP_7MMBRASS="Получена латунь.";
+PICKUP_7MMBOX="Получены 7,76 мм патроны.";
+PICKUP_BRONTOROUND="Получен патрон для Бронторниса.";
+PICKUP_ROCKETGRENADE="Получена ракета-граната.";
+PICKUP_ROCKETBOX="Получены ракеты-гранаты.";
+PICKUP_DUDROCKET="Получена обезвреженная ракета-граната.";
+PICKUP_DUDROCKETNEW="Получена (и обезврежена) ракета-граната.";
+PICKUP_HEATROCKET="Получена кумулятивная ракета.";
+
+PICKUP_9MMAG="Получен пистолетный магазин.";
+PICKUP_4MMAG="Получен Стандартный 4,26 мм магазин UAC.";
+PICKUP_9MMAG30="Получен магазин для пистолета-пулемёта.";
+PICKUP_7MMAG="Получен 7,76 мм магазин.";
+PICKUP_7MCLIP="Получена 7,76 мм обойма.";
+PICKUP_BATTERY="Получена батарея.";
+
+PICKUP_BACKPACK="Получен рюкзак, который наполнит Вашу жизнь боеприпасами!";
+PICKUP_LITEAMP="Очки усиления света.";
+PICKUP_RADSUIT="Защитный костюм.";
+
+PICKUP_BLOODPACK="Получена упаковка синтетической крови.";
+PICKUP_DOORBUSTER="Получен комплект для выбивания дверей.";
+PICKUP_IED="Получен комплект для создания самодельного взрывного устройства.";
+PICKUP_JETPACK="Получен реактивный ранец!";
+PICKUP_LADDER="Получена лестница.";
+PICKUP_RELOADER="Получен пресс для снаряжения патронов 7,76 мм!";
+
+PICKUP_POTION="Получен эктоплазматический полип.";
+PICKUP_BLURSPHERE="Частичная невидимость.";
+PICKUP_TALISMAN="Получен талисман призывателя.";
+
+PICKUP_STIMPACK="Получен стимулятор.";
+PICKUP_ZERKPACK="Получен комплект \"Берсерк\".";
+PICKUP_MEDIKIT="Получена аптечка.";
+PICKUP_OPENAPPLICATOR="Получена открытая аптечка.";
+PICKUP_USEDAPPLICATOR="Получена использованная аптечка.";
+
+PICKUP_GARRISONARMOUR="Получена гарнизонная броня.";
+PICKUP_BATTLEARMOUR="Получена боевая броня.";
+
+// Misc non-pickup and non-tag stuff down here. - [Ted]
+
+ARMOUR_PUTON="Надета ";
+ARMOUR_REMOVE="Снята ";
+DURABILITY_95="Бронелист не прошёл бы сертификацию.";
+DURABILITY_75="Ткань точно видала и лучшие дни."; //это про кевлар?
+DURABILITY_6="Лучше, чем ничего.";
+DURABILITY_3="Вы прикрываете свою постыдную наготу своими грязными лохмотьями.";
+DURABILITY_1="Главное, чтобы в Вас не попали.";
+
+TALISMAN_SUMMON1="They shall stand again and hear there/a horn in the hills ringing./Whose shall the horn be?"; //Я не толкинист, не знаю, какой перевод у них сейчас считается "каноническим".
+TALISMAN_SUMMON2="For this war will last/through years uncounted/and you shall be summoned/once again ere the end.'";
+TALISMAN_SUMMON3="Faint cries I heard, and dim horns blowing,/and a murmur as of countless far voices;/it was like the echo of some forgotten battle/in the Dark Years long ago.";
+TALISMAN_SUMMON4="Pale swords were drawn; but I know not/whether their blades would still bite,/for the Dead needed no longer/any weapon but fear.'";
+
+BACKPACK_TOOFULL="Ваш рюкзак забит под завязку.";
+BACKPACK_TOP="\c[DarkBrown][] [] [] \c[Tan]Рюкзак \c[DarkBrown][] [] []";
+BACKPACK_TOTALBULK="Суммарная тяжесть: \cf";
+BACKPACK_NOITEMS="Предметов не найдено.";
+BACKPACK_INBAG="В рюкзаке:  ";
+BACKPACK_ONPERSON="На руках:  ";
+
+MEDIKIT_USEUNWRAPPED="Вы вытаскиваете уже открытую аптечку."; //непонятно.
+MEDIKIT_USEUNWRAPPEDHELP="(Удерживайте Использовать (дверь) во время использования новой аптечки, чтобы открыть новую)"; //непонятное предложение. Причём тут вообще дверь?
+MEDIKIT_UNKNOWN="** НЕИЗВЕСТНО **";
+MEDIKIT_NOSUTURES="У Вас нет ни одного комплекта самозатягивающихся швов."; // Ну хоть так.
+MEDIKIT_NOBURNS="У Вас нет ожогов.";
+MEDIKIT_NOWOUNDS="У Вас нет ранений.";
+MEDIKIT_FIRETOHEAL="\cg+++ \cjАПТЕЧКА \cg+++\c-\n\n\nНажмите и удерживайте Огонь,\nчтобы вылечить себя.";
+MEDIKIT_OTHERWOUNDS="У пациента нет повреждений.";
+MEDIKIT_NOTHINGTOBEDONE="Здесь помощь не требуется.\n\nВылечить себя? (нажмите Огонь)";
+MEDIKIT_USEDSYRINGE="Пора делать ноги!\n\n%s пытается уколоть Вас\n\nиспользованным шприцом!!!";
+MEDIKIT_ATTACKUSED="Зачем Вы атакуете сокомандника\n\nиспользованным медицинским изделием!?";
+MEDIKIT_OTHERUSEONYOU="%s пытается вылечить Вас аптечкой.\nСтойте спокойно, чтобы позволить это, или откажитесь...";
+MEDIKIT_STAYSTILL="Нужно заставить пациента стоять спокойно...";
+MEDIKIT_TAKEOFF1="Сначала заставьте пациента снять ";
+MEDIKIT_TAKEOFF2="!\n\n(\cdhd_strip\c- в консоли)";
+MEDIKIT_OTHERNOWOUNDS="У пациента нет ранений.";
+MEDIKIT_OTHERNOBURNS="У пациента нет ожогов.";
+MEDIKIT_TARGETNOPED="Пациент отказался!"; //???
+MEDIKIT_WOUNDSEALED="Рану удалось залатать.";
+MEDIKIT_AUTODIAGNOSTIC="\cdАптечка: включена автодиагностика.\c-\n\n\ccПроизводится сканирование, пожалуйста, подождите...";
+MEDIKIT_AUTODIAGNOSTICFAIL="\caАптечка: Автодиагностика не удалась.";
+MEDIKIT_AUTODIAGNOSTICFOR="Аптечка: автодиагностика \cy\n";
+MEDIKIT_WOUNDS="\n\n\ccРанения:\cg\cu";
+MEDIKIT_BURNS="\n\ccОжоги: \cq";
+MEDIKIT_TISSUEDAMAGE="\n\ccУрон тканям: \cq";
+MEDIKIT_BLOODLOSS="\n\ccПотеря крови: \ca";
+MEDIKIT_TRANSFUSIONUNITS=" \ccединиц переливания";
+MEDIKIT_NONE=" нет";
+
+BANDAGES_TEXT1="\cu--- \ccПЕРЕВЯЗКА \cu---\c-\n\n\nНажмите и удерживайте Огонь,\n\nстоя спокойно,\n\nчтобы попробовать избежать смерти.";
+BANDAGES_TEXT2="\cu--- \ccПЕРЕВЯЗКА \cu---\c-\n\n\nНажмите и удерживайте Огонь, чтобы забинтовать\n\nсебя при кровотечении.\n\n\n\nНажмите и удерживайте Альт. атаку, чтобы\n\nзабинтовать кого-то другого.";
+BANDAGES_NOWOUNDS="Нет ран, которые можно забинтовать.";
+BANDAGES_STAYSTILL="Чтобы перебинтовать себя\n\n, стойте спокойно!";
+BANDAGES_NOTBLEEDING="У Вас нет кровотечения.";
+BANDAGES_STABLE="Ваше состояние стабильное.";
+BANDAGES_NOTHINGDONE="Здесь помощь не требуется.\n\nВылечить себя? (нажмите Огонь)"; // про Огонь не было
+BANDAGES_SOMEONEBANDAGING="%s пытается Вас перебинтовать.\n\nСтойте спокойно, чтобы позволить это\n, или откажитесь...";
+BANDAGES_STAYSTILLOTHER="Нужно заставить пациента стоять спокойно...";
+BANDAGES_OTHERNOTBLEEDING="У пациента нет кровотечения.";
+BANDAGES_WORKINGON="Работаю над "; //?
+
+BLOODBAG_HOLDFIRE="\cr::: \cgВТОРАЯ КРОВЬ \cr:::\c-\n\n\nНажмите и удерживайте Огонь,\nчтобы присоединить.";
+BLOODBAG_NOVALIDPATIENT="Поблизости нет пациента.";
+BLOODBAG_PATIENTHAS="У пациента "; // считаю, что эта и следующие две строки связаны
+BLOODBAG_YOUHAVE="У Вас ";
+BLOODBAG_INJECTORIN=" уже установлен катетер!";
+
+STIMPACK_NONEED="Помощь не требуется.";
+STIMPACK_NOTHINGTOBEDONE="Здесь помощь не требуется.\n\nВколоть себе? (нажмите Огонь)";
+STIMPACK_TAKEOFFOTHER="Вам нужно заставить пациента снять ";
+STIMPACK_ELIPSES="...";
+STIMPACK_OVERDOSEPLAYER="Пора делать ноги!!!\n\n%s пытается вызвать у Вас передозировку!";
+STIMPACK_FIDGETY="Пациент кажется беспокойным...";
+STIMPACK_STOPSQUIRMING="Прекратите извиваться!\n\n%s только хочет\n\nдать Вам лекарство...";
+STIMPACK_STAYSTILLOTHER="Нужно заставить пациента стоять спокойно...";
+STIMPACK_SEEMFIDGETY="Пациент кажется и так беспокойным...";
+STIMPACK_HELPTEXT="\cd<<< \cjСТИМУЛЯТОР \cd>>>\c-\n\n\nСтимуляторы помогают временно\nснизить кровотечение\n\nи увеличить работоспособность при ранении.\n\n\Можно вколоть другому человеку клавишей альтернативного огня.\n\n\cgИЗБЕГАЙТЕ ПЕРЕДОЗИРОВКИ.";
+
+ZERKPACK_MAINHELPTEXT="\cr*** \caБЕРСЕРК \cr***\c-\n\n\nКомплект \"Берсерк\" временно увеличивает\nбоевые способности.\n\nМожно вколоть другому человеку клавишей альтернативного огня.";
+
+FIST_KILL1="убивать";
+FIST_KILL2="у б и в а т ь";
+FIST_KILL3="у Б И В А Т Ь";
+FIST_KILL4="У\n   Б\n      И\n         В\n            А\n               Т\n                  Ь";
+FIST_KILL5="Убивать.";
+FIST_KILL6="УБИВАТЬ";
+FIST_KILL7="у б и в а т ь";
+FIST_KILL8="Убивать!";
+FIST_KILL9="У  Б  И  В  А  Т  Ь";
+FIST_KILL10="убивать...";
+FIST_KILL11="Убивать...";
+FIST_KILL12="у б и в а т ь . . .";
+FIST_KILL13="      убивать";
+FIST_KILL14="  ... убивать ...";
+FIST_KILL15="убивать,";
+FIST_KILL16="убиваааатттть!!!";
+FIST_KILL17="убивать~";
+FIST_KILL18="убивать <3";
+FIST_KILL19="убивать uwu";
+
+POTION_TEXT1="\ci::: \ckЭКТОПЛАЗМА \ci:::\c-\n\n\nСделано не\nруками человека.\n\nОсторожнее.";
+BLUES_POWER="You feel power coming out of you.";
+
+BLURSPHERE_ITHURTS="больно";
+BLURSPHERE_NOISE="шум"; //звук?
+BLURSPHERE_NO="нет";
+BLURSPHERE_HELLO="привет";
+BLURSPHERE_ANGRY1="ты умрёшь";
+BLURSPHERE_ANGRY2="кровь";
+BLURSPHERE_ANGRY3="ненавижу тебя"; //здесь обращение на "ты"
+BLURSPHERE_ANGRY4="бесполезный";
+BLURSPHERE_ANGRY5="ошибка";
+BLURSPHERE_ANGRY6="твои глаза";
+BLURSPHERE_ANGRY7="ничего";
+
+PICKUP_INFERIORMAG="Худший из магазинов выброшен, чтобы освободить место.";
+PICKUP_MAGFIREMODE="Новый магазин не лучше старого. Обмен не произведён."; //непонятно значение Firemode held
+PICKUP_EXCEEDED=" превышен."; //?
+PICKUP_POCKETSFULL="В карманах нет места.";
+
+HERP_NOBATTERY="Обнаружена неисправность. Просим прочитать инструкцию перед ремонтом. (ERR-4fd92-00B) Нет энергии.";
+HERP_NOMAG="Обнаружена неисправность. Просим прочитать инструкцию перед ремонтом. (ERR-42392-41A) Боеприпас пуст. Отключение системы..."; //было empty cartridge, а не magazine.
+HERP_BADMAG="Обнаружена неисправность. Просим прочитать инструкцию перед ремонтом. (ERR-74x29-58A) Неподдерживаемый тип боеприпасов.\n\n\cjОбратите внимание: перезарядка Стандартного магазина UAC 4,26 или его компонент без надзора Специалиста по стандартным сертифицированным боеприпасам Volt UAC (tm) нарушает Лицензионное соглашение конечного пользователя Volt.";
+HERP_NOINTERFACE="Обнаружена неисправность. Просим прочитать инструкцию перед ремонтом. (ERR-8w8i7-8VX) Интерфейс не найден.";
+HERP_SYSTEMRESTART="Недопустимая операция. Просим прочитать инструкцию перед ремонтом. (ERR-u0H85-6NN) Система будет перезапущена.";
+HERP_TAMPEREDSYSTEM="Недопустимая операция. Обнаружено вмешательство в систему \"свой-чужой\". Просим немедленно связаться со старшим офицером. (ERR-0023j-000) Система будет остановлена.";
+HERP_FORMATC="Идёт форматирование C:\\ (DBG-444j2-0A0)";
+HERP_DEVMODE="Запущен тестовый режим. (DBG-86nm8-BN5) Кэш очищен.";
+HERP_OBJECTNOTMAPPED="*** Критическая ошибка *** Address not mapped to object (signal 11) Address: 0x8";
+HERP_SEGMENTATIONFAULT="*** Критическая ошибка *** Segmentation fault (signal 11) Address: (nil)"; // Можно не переводить, в Windows не переведено :-)
+HERP_ENEMY="Уведомление системы \"свой-чужой\": опознаны сигнатуры противника.";
+HERP_ESTABLISHING="Попытка установить соединение...";
+HERP_CONNECTED="Соединение установлено!";
+HERP_DISCONNECTED="Соединение разорвано.";
+HERP_DAMAGEDBEYONDFUNCTION="Повреждения несовместимы с дальнейшей работой. Перед попытками ремонта вытащите батарею.";
+HERP_NOPOWER="Нет источника энергии. Зарядите комплект батарей перед развёртыванием.";
+HERP_REPAIRPACK="Вы ремонтируете один из сломанных H.E.R.P. в рюкзаке.";
+HERP_REPAIRPACK_FAIL="Вы разрушаете один из сломанных H.E.R.P. в рюкзаке в попытках его починить.";
+HERP_REPAIRED="Вы снова приводите H.E.R.P. в рабочее состояние.";
+HERP_CANNIBALIZED="Другой H.E.R.P. разобран на запчасти.";
+HERP_REPAIRBROKEN="Вы ремонтируете один из сломанных H.E.R.P.";
+HERP_REPAIRBROKEN_FAIL="Вы разрушаете один из сломанных H.E.R.P. в попытках его починить.";
+HERP_FIELDREPAIRS="Вам удаётся устранить некоторые неполадки робота H.E.R.P. подручными средствами.";
+HERP_NOCONTROLLER="Нет подключения к контроллеру. Сначала вызовите интерфейс с подключённым H.E.R.P. в режиме ожидания.";
+HERP_NEXTTAG="\cd[HERP] \cjУстановлен следующий тег HERP \cy%i";
+HERP_EMPTY="\cd[HERP] \crОШИБКА:\cj у HERP на [\cj%i\cu,\cj%i\cu] не осталось боеприпасов и батарей, активировать \cxНЕ УДАЛОСЬ\cj.";
+HERP_NOANGLECHANGE="\cd[HERP] \crОШИБКА:\cj Не задана смена угла.";
+HERP_NOWFACING="\cd[HERP] \cj HERP на [\cj%i\cu,\cj%i\cu]\cj: основной угол теперь направлен на %s"; //не совсем понятно
+HERP_FACING="\cd[HERP] \cu [\cj%i\cu,\cj%i\cu]\cj направлен на %s \cy%i\cj %s";
+HERP_INACTIVE="\cyнеактивный режим";
+HERP_ACTIVE="\cxАКТИВНЫЙ РЕЖИМ";
+HERP_BADCOMMAND1="\cd[HERP] \cj%sФормат команд:\cu herp <опция> <номер тега> <направление>\n\cjОпции\n 1 = ВКЛ\n 2 = ВЫКЛ\n 3 = НАПРАВЛЕНИЕ (против часовой стрелки в градусах)\n 123 = ОПРОС\n -n = установить номер тега\n\cj  номер тега при следующем развёртывании: \cy%i";
+HERP_BADCOMMAND2="H.E.R.P. не развёрнуты.\n";
+HERP_TAG1="\cd[HERP] \cj%i HERP%s %s%s\cj.";
+HERP_TAG2="с тегом \ca%i\cj ";
+HERP_VHACKED="взломан";
+HERP_VON="\cxактивирован";
+HERP_VOFF="\cyдеактивирован";
+HERP_VDIRECTED="\cuперенаправлен";
+HERP_VSCANTOG="\cbпереключён режим сканирования";
+HERP_NODEPLOYED="H.E.R.P. не развёрнуты. Отмена приказа.";
+HERP_NEXTLIST="Переключено на следующий H.E.R.P.";
+
+DERP_ALERT1="Derpy derp!";
+DERP_ALERT2="\cd[DERP";
+DERP_ALERT3="(\cj";
+DERP_ALERT4="\cd)";
+DERP_ALERT5="]\cj  ";
+DERP_AIM="\cjВеду бой с противником.";
+DERP_KILL="\cf  Противник уничтожен.";
+DERP_STANDBY="\cg  Обнаружена неисправность.\cj Ожидается ремонт.";
+DERP_NOAMMO="\cjНет патронов. Ожидается возврат.";
+DERP_BROKEN="\cm<сломан>";
+DERP_WAIT="\ccЖДАТЬ";
+DERP_LINE="\ceОЧЕРЕДЬ";
+DERP_TURRET="\caТУРЕЛЬ";
+DERP_PATROL="\cgПАТРУЛЬ";
+DERP_BOTID="\cuID бота \cy";
+DERP_NOMAG="\cm<нет магазина>";
+DERP_MAG="Магазин:  ";
+DERP_REPAIRPACK="Вы ремонтируете один из сломанных D.E.R.P. в рюкзаке.";
+DERP_REPAIRPACK_FAIL="Вы разрушаете один из сломанных D.E.R.P. в рюкзаке в попытках его починить.";
+DERP_REPAIR="Вы ремонтируете один из сломанных D.E.R.P.";
+DERP_REPAIR_FAIL="Вы разрушаете один из сломанных D.E.R.P. в попытках его починить.";
+DERP_FIELDREPAIR="Вам удаётся устранить некоторые неполадки робота D.E.R.P. подручными средствами.";
+DERP_REMOVEMAG="Перед попытками ремонта нужно вытащить магазин.";
+DERP_REPAIRED="Вы снова приводите D.E.R.P. в рабочее состояние.";
+DERP_CANNIBALIZED="Другой D.E.R.P. разобран на запчасти.";
+DERP_NOINTERFACE="Нет соединения с контроллером. Сначала откройте интерфейс.";
+DERP_TAGSET="\cd[DERP]  \cuУстановлен тег \cy%i";
+DERP_ITSBROKEN="\cd[DERP]  \cuОн сломан."; //Что именно? Робот или что-то другое?
+DERP_555HELP="\cd[DERP]  \cuИспользуйте эту команду, чтобы прикрепить D.E.R.P. к стене или переключателю.";
+DERP_CANTDEPLOY="\cd[DERP]  \cuЭто неподходящее место для развёртывания.";
+DERP_MODEWAIT="cЖДАТЬ";
+DERP_MODELINE="cОЧЕРЕДЬ"; //?
+DERP_MODETURRET="aТУРЕЛЬ";
+DERP_MODEPATROL="gПАТРУЛЬ";
+DERP_MODE="\cd[DERP]  \cjРежим  \c%s";
+DERP_GOALSETPLAYER="\cd[DERP]  \cuЦель установлена на  \cyВАШЕ МЕСТОПОЛОЖЕНИЕ";
+DERP_GOALSETTO="\cd[DERP]  \cuЦель установлена на \cx[%i,%i]";
+DERP_REPORTIN1="\cd[DERP] \cjТег #\cx%i \cjдокладывает с координат [\cx%i\cj,\cx%i\cj] с %s";
+DERP_REPORTIN2="\cjОсталось \cy%i\cj патронов!";
+DERP_REPORTIN3="\crне осталось боеприпасов!\cj Нужна помощь!";
+DERP_BADCOMMAND="\cd[DERP]\cj Список допустимых команд:\n             derpt    \cjбездействие  (1)\n             derpa    \cjдозор  (2)\n             derpp    \cjдозор-360  (3)\n             derpcome \cjпатрулирование (4)\n             derpcome \cjвернуться к оператору (5)\n             derpgo   \cjнаправиться к точке  (6)\n             derpmv*   \cjнаступать в направлении (n (С), s (Ю), ne (СВ), sw (ЮЗ) и т. п.)  (5)\n             derptag  \cjустановить тег #   (-x)\n \cu(у всех команд есть сокращения\n\cuс \"d\" вместо \"derp\")\n\n \cuВведите \cdderp 123\cu для опроса развёрнутых D.E.R.P.\n \cuТекущий тег: \cx%i.";
+DERP_SWITCHING="Выбран следующий D.E.R.P. в списке.";
+DERP_NODERPS="D.E.R.P. не развёрнуты. Отмена приказа.";
+DERP_NOTFOUND="D.E.R.P. не найдены. Список очищен.";
+DERP_LASTPOS1="НЕУДАЧА СОЕДИНЕНИЯ, НЕОБХОДИМА ПЕРЕЗАГРУЗКА! Последнее местоположение D.E.R.P.: (";
+DERP_LASTPOS2=",";
+DERP_LASTPOS3=")";
+DERP_IDLEMODE="Бездействие.";
+DERP_WATCHMODE="Режим дозора.";
+DERP_WATCH360MODE="Режим Дозор-360.";
+DERP_PATROLMODE="Режим патрулирования.";
+DERP_FETCHDEVICES="Поиск устройств рядом...";
+DERP_CONNECTIONFAILURE1="НЕУДАЧА СОЕДИНЕНИЯ, НЕОБХОДИМА ПЕРЕЗАГРУЗКА! Последнее местоположение D.E.R.P.: (";
+DERP_CONNECTIONFAILURE2=",";
+DERP_CONNECTIONFAILURE3=")";
+DERP_CONNECTED1="D.E.R.P. подключён с (";
+DERP_CONNECTED2=",";
+DERP_CONNECTED3=").";
+DERP_CONNECTIONATTEMPTMADE1="Попытка подключения к D.E.R.P. сделана пользователем ";
+DERP_CONNECTIONATTEMPTMADE2="с (";
+DERP_CONNECTIONATTEMPTMADE3=",";
+DERP_CONNECTIONATTEMPTMADE4=")";
+DERP_REMOTELOGINFAILED="Попытка удалённого доступа к D.E.R.P. не удалась.";
+
+MAGMANAGER_UITEXT="Магазины\n\nМагазины не выбраны";
+MAGMANAGER_CONTROLS1="\cf///\c%s\cf\\\\\\\n\cqОгонь\cu/\cqАльт. атака\cu  выбрать магазин\n\cqРежим огня\cu+\cqF\cu/\cqAF\cu  выбрать тип\n\cqПерезарядить\cu/\cqРазрядить\cu  зарядить/разрядить выбранный\n\cqFM\cu+\cqR\cu/\cqU\cu  переместить в/из рюкзака\n\cqБросить\cu  выбросить текущий  \cqFM\cu+\cqБросить\cu  ...нижний\n\cqАльт. перезарядка\cu переместить нижний наверх\n\cqВыбросить один\cu выбросить оставшиеся патроны"; //FM --- это что такое?
+MAGMANAGER_CONTROLS2="y";
+MAGMANAGER_CONTROLS3="uМагазины не выбраны.";
+
+PICKUPMANAGER_UITEXT="\cy\\\\\\\cfПодобранные предметы\cy///\n\n\n\n\n\n\cj%s"; //?
+PICKUPMANAGER_ONDROP="\n\caПри выбрасывании: ";
+PICKUPMANAGER_NOITEMS="Предмет не выбран.";
+
+LITEAMP_GOGGLESAT="Состояние очков: ";
+LITEAMP_CHARGE="% заряда, ";
+LITEAMP_INTEGRITY="% целостности.";
+LITEAMP_NOPOWER="Нет источника питания для усиления света, нужна хотя бы одна батарея.";
+
+LADDER_HANG="Вы вешаете лестницу.%s";
+LADDER_HANG_HELPTEXT=" Используйте лестницу, чтобы забраться по ней.";
+LADDER_CANTHANG="Здесь не получится повесить лестницу.";
+LADDER_CLIMB="Вы забираетесь по лестнице.%s";
+LADDER_CLIMB_HELPTEXT=" Чтобы слезть с лестницы, используйте её повторно или спрыгните; присядьте и прыгните, чтобы забрать лестницу с собой.";
+LADDER_DISENGAGE="Вы слезли с лестницы.";
+LADDER_UP="Лестница поднята."; // Такое ли значение?
+LADDER_DOWN="Лестница опущена.";
+
+IED_ONELIVEORDUD="Вам нужна боевая или неразорвавшаяся ракета-граната.";
+IED_IED="\cd[СВУ] \cj";
+IED_DEPLOYED="Размещено с тегом \cy%i\cj - \cgВЗВЕДЕНО, ПОИСК ЦЕЛЕЙ АКТИВЕН!\cj\n\cjИспользуйте \cdied 2 \cy%i\cj в консоли для \cgде\cjактивации поиска целей или \cdied 999 \cy%i\cj для немедленного взрыва.";
+IED_DEPLOYED_IDLE="Размещено с тегом \cy%i\cj.\n\cjИспользуйте \cdied 1 \cy%i\cj в консоли для активации поиска целей или \cdied 999 \cy%i\cj для немедленного взрыва.";
+IED_SETTAG="Следующее СВУ будет размещено с тегом \cy%i";
+IED_MYPOS="\cu [\cj%i\cu,\cj%i\cu] \cy%i %s";
+IED_ACTIVE="\cgАКТИВНЫЙ РЕЖИМ"; // надо понять, как там по контексту
+IED_PASSIVE="\cuпассивный режим";
+IED_VHACK="взломано";
+IED_VDETONATE="\crвзорвано";
+IED_VON="\cxактивировано";
+IED_VOFF="\cyдеактивировано";
+IED_RESULT="%i %s %s%s\cj.";
+IED_WITHTAG="с тегом \ca%i\cj ";
+IED_SINGULAR="СВУ";
+IED_PLURAL="СВУ";
+IED_HELPTEXT="%sФормат команды:\n\cu ied <option> <tag number> \n\cjОпции:\n 1 = ВКЛ\n 2 = ВЫКЛ\n 999 = ВЗРЫВ\n 123 = ЗАПРОС\n -n = установить номер тега\n\cj  номер тега при следующем размещении: \cy%i";
+IED_NODEPLOYED="Ни одного СВУ не установлено.\n";
+IED_S="s"; //?
+
+// Menu Lumps
+HDOPTIONS_TITLE="НАСТРОЙКИ HIDEOUS DESTRUCTOR";
+HDOPTIONS_LOADOUTEDITOR="Редактирование стартовых наборов";
+HDOPTIONS_CONFIGURECONTROLS="Настройка клавиш HD";
+HDOPTIONS_ADDONMENU="Аддоны для Hideous Destructor";
+
+// Server Settings
+HDOPTIONS_SERVERSETTINGS="Настройки сервера";
+HDOPTIONS_PRESETCASUAL="Предустановка режима: Казуальный";
+HDOPTIONS_PRESETNORMAL="Предустановка режима: Обычный";
+HDOPTIONS_PRESETHARDCORE="Предустановка режима: Хардкор";
+
+HDOPTIONS_ENCUMBRANCEMULTIPLIER="Множитель тяжести";
+HDOPTIONS_DAMAGEMULTIPLIER="Множитель урона";
+HDOPTIONS_MAXSTRENGTH="Максимальная сила";
+HDOPTIONS_NOBLEEDING="Без кровотечений";
+HDOPTIONS_KILLERBARRELS="Частота спауна бочек-убийц";
+HDOPTIONS_FRAGTICK="Спаунить осколок каждые _ тиков";
+HDOPTIONS_ARCHVILESPAM="Уменьшить спаун арчвайлов";
+HDOPTIONS_FASTMONSTERS="[Doom] Быстрые монстры";
+
+HDOPTIONS_CAPLIFTSPEEDS="Ограничивать скорости лифтов до безопасных";
+HDOPTIONS_DIRTYWINDOWS="Добавлять грязные окна на уровни";
+HDOPTIONS_MAPDESTRUCTION="Разрушение геометрии уровня";
+HDOPTIONS_REPLACEBOTS="Заменять ботов на стрелков";
+
+HDOPTIONS_DROPONDEATH="Выронять все предметы при смерти";
+HDOPTIONS_POF="Режим респауна \"Сила Дружбы\"";
+HDOPTIONS_DISINTIGRATOR="Disintegrate without incapacitation"; //это как вообще?
+HDOPTIONS_INSTAGIB="Режим смерти от одного попадания";
+HDOPTIONS_FLAGPOLE="Режим захвата флага";
+
+HDOPTIONS_RESETSERVERSETTINGS="Сбросить настройки сервера";
+HDOPTIONS_REALLYRESETSERVERSETTINGS="Действительно сбросить все настройки сервера?";
+
+// User Settings
+HDOPTIONS_USERSETTINGS="Настройки игрока";
+HDOPTIONS_HEIGHT="Высота игрока";
+HDOPTIONS_STRENGTH="Сила игрока";
+HDOPTIONS_HELPTEXT="Справка";
+HDOPTIONS_PASSIVESIGHTS="Пассивный обзор через открытый прицел"; //?
+HDOPTIONS_SIGHTBOB="Открытый прицел виден при движении";
+HDOPTIONS_CROSSHAIRSCALE="Масштаб перекрестия";
+HDOPTIONS_USEKEYDELAY="Задержка клавиши \"использовать\" для интерфейса";
+HDOPTIONS_HUDSTYLE="Стиль интерфейса";
+HDOPTIONS_USEASFOCUS="Use key doubles as a focus key";
+HDOPTIONS_FOCUSKEYSENSITIVITY="Focus key aiming sensitivity"; // специфика, непонятно
+HDOPTIONS_BRACEDSENS="Braced weapon aiming sensitivity"; //тоже непонятно
+HDOPTIONS_NOZOOMLEAN="Не удерживать приближение, чтобы опереться";
+HDOPTIONS_SLIDECROUCH="Не подкатывать/перекатываться из приседа";
+HDOPTIONS_SWAPBARRELS="Поменять левые/правые клавиши управления на двуствольном оружии"; //может быть неточно
+HDOPTIONS_MAGPICKUPLIMIT="Предел подбора магазинов";
+HDOPTIONS_CONSOLIDATION="Пассивная сортировка инвентаря"; //непонятно, что это
+HDOPTIONS_RANDOMPITCH="Случайная высота голоса монстров";
+
+HDOPTIONS_RESETUSERSETTINGS="Сбросить пользовательские настройки";
+HDOPTIONS_REALLYRESETUSERSETTINGS="Действительно сбросить пользовательские настройки?";
+
+// User Gear Settings
+HDOPTIONS_USERGEAR="Личные настройки снаряжения";
+HDOPTIONS_DERPMODE="Режим D.E.R.P.";
+HDOPTIONS_IEDACTIVE="Самодельные взрывные устройства активны изначально";
+HDOPTIONS_REFLEXRETICLE="Изображение в рефлекторном прицеле";
+HDOPTIONS_NVGBRIGHTNESS="Яркость ночного видения";
+HDOPTIONS_NVGSTYLE="Стиль эффекта прибора ночного видения";
+
+HDOPTIONS_RESETWEAPONSETTINGS="Сбросить настройки оружия";
+HDOPTIONS_REALLYRESETWEAPONSETTINGS="Действительно сбросить все настройки оружия?";
+
+// Controls Menu
+HDCONTROLS_TITLE="КЛАВИШИ HIDEOUS DESTRUCTOR";
+
+HDCONTROLS_REGULARWEP="Обычные клавиши оружия";
+HDCONTROLS_REGTEXT1="То же, что и стандартные перезарядка, приближение,";
+HDCONTROLS_REGTEXT2="клавиши User1-4 и команда weapdrop.";
+HDCONTROLS_ALTRELOAD="Дополнительная перезарядка";
+HDCONTROLS_FIREMODE="Режим огня оружия";
+HDCONTROLS_MAGMANAGER="Снаряжение магазинов";
+HDCONTROLS_UNLOAD="Разрядить оружие";
+HDCONTROLS_DROPWEAPON="Выбросить оружие";
+
+HDCONTROLS_REGULARMOVEMENT="Обычные клавиши передвижения";
+HDCONTROLS_REGTEXT3="Предполагаю, что Вы уже привязали";
+HDCONTROLS_REGTEXT4="клавиши для четырёх направлений!"; //добавил "четырёх"
+HDCONTROLS_TOGGLERUN="Переключить бег";
+HDCONTROLS_CROUCH="Присесть";
+HDCONTROLS_JUMP="Прыжок/Преодолеть препятствие"; //не уверен в последнем
+HDCONTROLS_SPRINT="Рывок";
+
+HDCONTROLS_INVENTORYCONTROLS="Клавиши управления инвентарём";
+HDCONTROLS_NEXTITEM="Следующий предмет";
+HDCONTROLS_PREVIOUSITEM="Предыдущий предмет";
+HDCONTROLS_USEITEM="Использовать предмет";
+HDCONTROLS_DROPITEM="Выбросить предмет";
+
+HDCONTROLS_EXCLUSIVECOMMANDS="Специальные команды HD";
+HDCONTROLS_REGTEXT5="Формально необязательны.";
+HDCONTROLS_TAUNT="Насмешка";
+HDCONTROLS_STRIPARMOUR="Снять броню";
+HDCONTROLS_DROPONE="Выбросить один боеприпас"; //один тип?
+HDCONTROLS_DROPUSELESS="Выбросить бесполезные боеприпасы";
+HDCONTROLS_CYCLESTACK="Циклический выбор другого оружия того же типа";
+HDCONTROLS_CROUCHSLIDE="Переключить приседание/подкат";
+HDCONTROLS_LEANLEFT="Наклон влево";
+HDCONTROLS_LEANRIGHT="Наклон вправо";
+HDCONTROLS_LEANSTRAFE="Наклон (используйте клавиши стрейфа)";
+HDCONTROLS_ROLLFORWARD="Перекат вперёд";
+HDCONTROLS_ROLLBACKWARD="Перекат назад";
+HDCONTROLS_SETSPAWN="Установить здесь точку спауна команды";
+HDCONTROLS_CLEARSPAWN="Сбросить точку спауна команды";
+HDCONTROLS_QUERYTEAM="Запросить местоположение команды";
+HDCONTROLS_RANGEFINDER="Дальномер";
+HDCONTROLS_PLAYDEAD="Притвориться мёртвым";
+
+HDCONTROLS_WEPCOMMANDS="Клавиши быстрого доступа к оружию";
+HDCONTROLS_REGTEXT6="Совершенно необязательны.";
+HDCONTROLS_USEPISTOL="Использовать пистолет";
+HDCONTROLS_USESMG="Использовать пистолет-пулемёт";
+HDCONTROLS_USEGRENADES="Использовать гранаты";
+HDCONTROLS_USESTIM="Использовать стимулятор";
+HDCONTROLS_USEMEDIKIT="Использовать аптечку";
+HDCONTROLS_USEBANDAGES="Использовать бинты";
+HDCONTROLS_USEPOTION="Использовать эликсир";
+HDCONTROLS_USEHERP="Использовать H.E.R.P.";
+HDCONTROLS_USEDERP="Использовать D.E.R.P.";
+HDCONTROLS_IEDPASSIVE="Самодельные взрывные устройства: пассивный режим";
+HDCONTROLS_IEDACTIVE="Самодельные взрывные устройства: активный режим";
+HDCONTROLS_DETONATEIED="Самодельные взрывные устройства: взорвать";
+HDCONTROLS_DERPGOTO="D.E.R.P.: выдвинуться к цели";
+HDCONTROLS_DERPSELF="D.E.R.P.: выдвинуться к себе"; //к игроку?
+HDCONTROLS_DERPPATROL="D.E.R.P.: режим патруля";
+HDCONTROLS_DERPWATCH="D.E.R.P.: режим ожидания";
+HDCONTROLS_DERPTURRET="D.E.R.P.: режим турели";
+HDCONTROLS_TOGGLEPT="Переключить режим D.E.R.P. (Засада/Турель)";
+HDCONTROLS_DERPMOVE_N="D.E.R.P.: выдвинуться на С";
+HDCONTROLS_DERPMOVE_S="D.E.R.P.: выдвинуться на Ю";
+HDCONTROLS_DERPMOVE_E="D.E.R.P.: выдвинуться на В";
+HDCONTROLS_DERPMOVE_W="D.E.R.P.: выдвинуться на З";
+HDCONTROLS_DERPMOVE_NE="D.E.R.P.: выдвинуться на СВ";
+HDCONTROLS_DERPMOVE_SW="D.E.R.P.: выдвинуться на ЮЗ";
+HDCONTROLS_DERPMOVE_SE="D.E.R.P.: выдвинуться на ЮВ";
+HDCONTROLS_DERPMOVE_NW="D.E.R.P.: выдвинуться на СЗ";
+
+// Addon Menu
+HDADDONMENU_TITLE="МЕНЮ ДОПОЛНЕНИЙ ДЛЯ HIDEOUS DESTRUCTOR";
+HDADDONMENU_TEXT1="Подключаемые дополнения должны размещать свои меню здесь.";
+HDADDONMENU_TEXT2="----- Меню -----";
+
+// Option Values
+
+HDOPTIONVALUE_HE="He";
+HDOPTIONVALUE_SHE="She";
+HDOPTIONVALUE_THEY="They";
+HDOPTIONVALUE_IT="It";
+
+HDOPTIONVALUE_SCREENBLOCKS="Использовать screenblocks";
+HDOPTIONVALUE_MUGSHOT="Портрет";
+HDOPTIONVALUE_NOMUGSHOT="Без портрета";
+
+HDOPTIONVALUE_DOT="Точка";
+HDOPTIONVALUE_BIGDOT="Большая точка";
+HDOPTIONVALUE_CROSSHAIR="Перекрестие";
+HDOPTIONVALUE_TOPCROSSHAIR="Крест без верха";
+HDOPTIONVALUE_SMALLCROSSHAIR="Маленький крест";
+HDOPTIONVALUE_THREEDOTS="Три точки";
+HDOPTIONVALUE_TINYCIRCLE="Маленькая окружность";
+HDOPTIONVALUE_SMALLCIRCLE="Небольшая окружность";
+
+HDOPTIONVALUE_AUTOAIM_NEVER="Никогда";
+HDOPTIONVALUE_AUTOAIM_VERYLOW="Очень низкий";
+HDOPTIONVALUE_AUTOAIM_LOW="Низкий";
+HDOPTIONVALUE_AUTOAIM_MEDIUM="Средний";
+HDOPTIONVALUE_AUTOAIM_HIGH="Высокий";
+HDOPTIONVALUE_AUTOAIM_VERYHIGH="Очень высокий";
+HDOPTIONVALUE_AUTOAIM_ALWAYS="Всегда";
+
+HDOPTIONVALUE_HIDEOUSGREEN="Омерзительный зелёный";
+HDOPTIONVALUE_HIDEOUSRED="Омерзительный красный";
+HDOPTIONVALUE_ANALOGGREEN="Аналоговый зелёный";
+HDOPTIONVALUE_ANALOGAMBER="Аналоговый янтарный";
+HDOPTIONVALUE_DIGITALGREEN="Цифровой зелёный";
+HDOPTIONVALUE_DIGITALAMBER="Цифровой янтарный";
+HDOPTIONVALUE_MODERNGREEN="Современный зелёный";
+HDOPTIONVALUE_TRUECOLOR="Полноцветный";
+
+HDOPTIONVALUE_DOORBUSTER_ALLOWALL="Позволять все";
+HDOPTIONVALUE_DOORBUSTER_ALLOWNONE="Не позволять никакие";
+HDOPTIONVALUE_DOORBUSTER_DEDICATED="Только специальные";
+
+HDOPTIONVALUE_DERPMODE_IDLE="Бездействие";
+HDOPTIONVALUE_DERPMODE_WATCH="Дозор";
+HDOPTIONVALUE_DERPMODE_TURRET="Турель";
+HDOPTIONVALUE_DERPMODE_PATROL="Патруль";
+
+HDOPTIONVALUE_INERTIA_NORMAL="Обычная";
+HDOPTIONVALUE_INERTIA_DISABLEALL="Отключить";
+HDOPTIONVALUE_INERTIA_ACCELONLY="Только ускорение";
+
+HDOPTIONVALUE_NOSCOPE_SCOPESIGHT="Оптический и открытый";
+HDOPTIONVALUE_NOSCOPE_SIGHTSONLY="Только открытый";
+HDOPTIONVALUE_NOSCOPE_NOTHING="Нет";
+
+HDOPTIONVALUE_NOSLIDE_BOTH="И подкаты, и перекаты";
+HDOPTIONVALUE_NOSLIDE_NOSLIDE="Без подкатов";
+HDOPTIONVALUE_NOSLIDE_NOROLLS="Без перекатов";
+HDOPTIONVALUE_NOSLIDE_NEITHER="Нет";
+
+// Loadout Menu
+LOADOUTMENU_EDITING="Редактируется набор №. ";
+LOADOUTMENU_SAVE="\cjСохранить ENTER или Ctrl+S, отменить ESC.";
+LOADOUTMENU_SETTONUM="\cxСтартовый набор назначен на № ";
+LOADOUTMENU_RESETLOADOUT="\cyСБРОС (ПО УМОЛЧАНИЮ).";
+LOADOUTMENU_CUTTOBOARD="\caВырезано в буфер обмена.";
+LOADOUTMENU_COPYFROMBOARD="\cdСкопировано в буфер обмена.";
+LOADOUTMENU_PASTEFROMBOARD="\cxВставлено из буфера обмена.";
+LOADOUTMENU_SAVEFIRST="\ca- Сначала сохраните набор!";
+LOADOUTMENU_LOADOUT="Набор ";
+LOADOUTMENU_LOADSAVEDTO="\cy- СТАРТОВЫЙ НАБОР СОХРАНЁН ПОД № ";
+LOADOUTMENU_DOOMGUY="Пистолет и пятьдесят патронов.";
+LOADOUTMENU_INSURGENT="Сюрприз...";
+LOADOUTMENU_NATURIST="Ведь главное — участие.";
+LOADOUTMENU_INBACKPACK="\n\nСОДЕРЖИМОЕ РЮКЗАКА:";
+LOADOUTMENU_NOBACKPACK="\n  <пусто>";
+
+LOADOUTMENU_CTRLF="\n\cu  Ctrl+F ";
+LOADOUTMENU_PREVIEW="предпросмотр";
+LOADOUTMENU_REFIDLIST="Список refID";
+LOADOUTMENU_PAGEUPDOWN="   PgUp/PgDn прокрутка \n  Ctrl+Home/End Начало/Конец списка\cj\n";
+
+LOADOUTMENU_CODEREFERENCELIST="\cnС П И С О К   К О Д О В            ";
+LOADOUTMENU_LOADOUTPREVIEW="\ceП Р Е Д П Р О С М О Т Р   Н А Б О Р А                    ";
+
+LOADOUTMENU_CONFIGURELOADOUT="Настроить стартовый набор";
+LOADOUTMENU_CONTROLS="\cdENTER\cu сохранить   \cdESC\cu очистить изменения   \cdCtrl+R\cu сбросить   \cdCtrl+H\cu ";
+LOADOUTMENU_SYNTAXHELP=" помощь по синтаксису";
+LOADOUTMENU_HIDE="скрыть";
+LOADOUTMENU_VIEW="показать";
+LOADOUTMENU_SYNTAX="\cgСинтаксис:   \cazzzz#aaaa:xxx n, yyy n, bak yyy n. yyy n\n\cazzzz\cu картинка-символ (необязательно)   \caaaaa\cu название (необязательно)\n\caxxx\cu начальное оружие   \cayyy\cu всё остальное\n\can\cu число предметов\cu (не обязательно, по умолчанию 1)\n\cabak\cu начало настроек рюкзака\n\camap\cu карта   \cakey\cu ключи (битовые флаги BYR)\n\n";
+LOADOUTMENU_NOWEDITING="Редактировать стартовый набор № ";
+LOADOUTMENU_LOADOUTNO="Стартовый набор №  ";
+
+MENU_NEWGAME="Новая игра: выберите стартовый набор";
+MENU_NEWGAME_CONTROLS="\cuВверх/Вниз выбор, Enter подтверждение, R случайный выбор, Ctrl+R наудачу";
+MENU_WEAPONSTRING_NOTHING="<пусто>";
+
+WPHFIRE = "Атака";
+WPHAltfire = "Альт. атака";
+WPHReload = "Перезарядка";
+WPHZoom = "Приближение";
+WPHArel = "Альт. перезарядка";
+WPHFmode = "Режим огня";
+WPHUser3 = "Клавиша User3";
+WPHUnload = "Разрядить";
+WPHSpeed = "Спринт";
+WPHMlook = "Обзор мышью";
+WPHUse = "Использовать";
+WPHDrop = "Выложить";
+WPHDropO = "Выложить 1 шт.";
+WPHSht = "  Огонь\n";
+WPHRel = "  Перезарядить\n";
+WPHUnl = "  Разрядить\n";
+WPHMMan = "  Снаряжение магазинов\n";
+WPHUSEONY = "  Использовать на себе\n";
+WPHUSEONS = "  Использовать на ком-то";
+
+//Инструкция к BFG
+BFGWH_FIRE = "  Огонь/Зарядить\n";
+BFGWH_ALTFIRE = "  Включить ограничитель\n";
+BFGWH_RELOAD = "  Прервать зарядку/Заменить батареи\n";
+BFGWH_ALTRELOAD = "  Вставить слабозаряженную батарею\n";
+BFGWH_USEPUNL = "  Самостоятельная зарядка";
+//Инструкция к Boss
+BOSWH_ALTFIRE = "  Затвор\n";
+BOSWH_RELOAD = "  Зарядить патроны/магазин\n";
+BOSWH_ZPFMOD = "  Регулировка прицела\n";
+BOSWH_ZPUSE = "  Скорость пули\n";//Вроде как
+BOSWH_ZPDRON = "  Выкинуть оригинальные патроны\n";
+BOSWH_ZPALTRELOAD = "  Зарядить переснаряженные\n";
+BOSWH_AFIREPUNL = "  Разрядить патронник/Прочистить ствол\n";
+//Инструкция к пиле
+SAWWPH_CUT = "  Пилить\n";
+//Инструкция к кулакамЛОЛ
+FISTWH_FIRE = "  Удар\n";
+FISTWH_ALTFIRE = "  Рывок\n";
+FISTWH_RELOAD = "  Обманный удар\n";
+FISTWH_FMODE = "  Схватить/Тащить\n";
+FISTWH_UNLOAD = "  Отвлекающий бросок\n";
+FISTWH_ZPSPED = "  Выбить дверь\n";
+FISTWH_ZPDROP = "  Выкинуть предметы\n";
+//Инструкция к гранатам
+GRENWH_FIRE1 = "  Замах, отпустить для броска\n(\cxХАРЕ ЧИТАТЬ, КИДАЙ УЖЕ";
+GRENWH_FIRE2 = "  Вынуть чеку/замах (отпустить для броска)\n";
+GRENWH_ALTFIRE = "  Вынуть чеку, повторить, чтобы отпустить рычаг\n";
+GRENWH_RELOAD = "  Отмена/Вставить чеку\n";
+GRENWH_ZOOM = "  Установка растяжки";
+
+TRPWH_FIRE = "  Установить ";
+TRPWH_GRENADE = "гранату";
+TRPWH_ENDOFSTRING = "конец нити";
+TRPWH_ALTFIRE = "  Отмена\n";
+//Инструкция к ракетнице и блоперу
+RLWH_ROCK = "Режим ракет";
+RLWH_GREN = "Режим гранат";
+RLWH_MODE = "\n";
+RLWH_OR = " или ";
+RLWH_REMOVHEAT = "  Вытащить кумулятивный снаряд\n";
+RLWH_LOAD = "  Зарядить кумулятивный снаряд\n";
+RLWH_AIRBURST = "  Дистанционный подрыв\n";
+
+BLOPWH_ALTFIRE = "  Отменить дист. подрыв\n";
+BLOPWH_AIRBURST = "  Дистанционный подрыв\n";
+//Инструкция к "освободителю"
+ARELWH_FIRE = "  Переснаряжение патронов\n";
+ARELWH_SAMELOL = "  то же самое";
+LIBWH_ALTFIRE1 = "  Винтовочный режим\n";
+LIBWH_ALTFIRE2 = "  Режим гранатомёта\n";
+LIBWH_RELOAD = "  Перезарядить магазин\n";
+LIBWH_UPRELOAD = "  Перезарядить патронник\n"; //Тут же про один дополнительный патрон не из магазина речь, да?
+LIBWH_ALTRELOAD = "  Перезарядить подствольник\n";
+LIBWH_FMODPUD = "  Дистанционный подрыв\n";
+LIBWH_FMODE = "  Одиночный/Автомат\n";
+LIBWH_ZPFMOD = "  Регулировка прицела\n";
+LIBWH_UNLOAD = "  Разрядить ";
+LIBWH_GL = "подствольник\n";
+LIBWH_MAG = "магазин\n";
+UPUNLOAD = "  Переснаряжение патронов";
+//Инструкция к ZM66
+ZMWH_ALTFIRE1 = "  Режим винтовки\n";
+ZMWH_ALTFIRE2 = "  Режим гранатомёта\n";
+ZMWH_RELOAD = "  Перезарядить магазин\n";
+ZMWH_UPRELOAD = "  Перезарядить патронник\n";
+ZMWH_ALTRELOAD = "  Перезарядить подствольник\n";
+ZMWH_FMODPUD = "  Дистанционный подрыв\n";
+ZMWH_ZPFMOD = "  Регулировка прицела\n";
+ZMWH_UNLOAD = "  Разрядить ";
+ZMWH_GL = "подствольник\n";
+ZMWH_MAG = "магазин\n";
+ZMWH_FMODE = "  Одиночный/Авто/Очередь\n";
+//Инструкция к пистолетуPistol
+PISWH_FMODE = "  Одиночный/Авто\n";
+PISWH_ALTRELOAD = "  Сменить пистолет (если есть)\n";
+PISWH_RELOAD = "  Перезарядить магазин\n";
+PISWH_UPRELOAD = "  Перезарядить патронник\n";
+//Инструкция к револьверу
+REVCWH_FIRE = " Закрыть барабан\n";
+REVCWH_ALTFIRE = " Прокрутить барабан \(Зажать ";
+REVCWH_ALTZOOM = ", чтобы крутить в обратную сторону\)\n";
+REVCWH_UNLOAD = " Экстрактор \(дабл-клик — изъять все патроны\)\n";
+REVCWH_RELOAD = " Зарядить патрон \(Зажать ";
+REVCWH_FMODPRELOAD = " чтобы зарядить 9мм\)\n";
+REVWH_ALTFIRE = " Взвести курок\n";
+REVWH_ARELOADPFMOD = "  Сменить револьвер (если есть)\n";
+REVWH_RELOAD = " Открыть цилиндр\n";
+//Инструкция к охотнику
+SHOOT_CH = "  Выстрел (чок: ";
+PUMP = "  Помпа\n";
+SHTG_REL1 = "  Перезарядить (сначала из патронташа)\n";
+SHTG_REL2 = "  Перезарядить (из карманов)\n";
+SHTG_FMODE = "  Помпа/Полуавтомат";
+SHTG_SIDE = "  Зарядить патронташ\n";
+SHTG_STEAL = "  Взять патроны из Палача\n";
+//Инструкция к палачу
+SLAWH_FIRE = "  Выстрелить из левого ствола (чок: ";
+SLAWH_ALTFIRE = "  Выстрелить из правого ствола (чок: ";
+SLAWH_RELOAD = "  Перезарядить (сначала из патронташа)\n";
+SLAWH_ALTRELOAD = "  Перезарядить (из карманов)\n";
+SLAWH_FMODE = "  Зажать для дуплета\n";
+SLAWH_FMODPRELOAD = "  Зарядить патронташ\n";
+SLAWH_UPUNL = "  Взять патроны из Охотника\n";
+//Инструкция к ПП
+SMGWH_FIRE = "  Перезарядить магазин\n";
+SMGWH_UPRELOAD = "  Перезарядить патронник\n";
+SMGWH_FMODE = "  Одиночный/Очередь/Авто\n";
+//Инструкция к плазмагану
+THBWH_SWITCH = "  Переключить на режим ";
+THBWH_DETONATOR = "детонатора";
+THBWH_SCATTERSHOT = "рассеянного выстрела";
+THBWH_MODE = "\n";
+THBWH_ALTRELOAD = "  Дальномер";
+//Инструкция к Вулканетт
+VULWH_RELOAD = "  Перезарядить магазины\n";
+VULWH_ALTRELOAD = "  Заменить батарею\n";
+VULWH_SWITCH = "  Сменить на ";
+VULWH_RPM = " ВВМ\n";
+VULWH_ZPFMODPUD = "  Регулировка прицела\n";
+VULWH_ZPUNL = "  Ремонт\n";
+VULWH_OR = "  или  ";
+VULWH_UNLBAT = "  Разрядить батарею\n";
+
+WEPWH_LOWENCU = "Игра в режиме лёгкого веса. Сначала выбросьте ";
+WEPWH_LOWFIRST = ".";
+WEPWH_THISYOUR = "\caЭто ваш ";
+WEPWH_NUMBER = " номер ";
+NWWH_KICK = "  Попытаться выбить дверь\n";
+WEP_TOOHEAVY = "Вы даже ходить толком не можете. Сперва выбросите что-нибудь!";
