@@ -2,6 +2,7 @@
 Перевод модификации Hideous Destructor (Обновлён до версии мода 4.11.3с)
 
 Страница перевода на Doom Power http://i.iddqd.ru/viewtopic.php?t=2348
+
 Hideous Destructor https://forum.zdoom.org/viewtopic.php?t=12973
 
 
