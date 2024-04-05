@@ -12,7 +12,9 @@ HDCONTROLS_STRIPARMOUR="Снять броню";
 [ru]
 HD_SENTENCEBREAK=". ";
 
-MNU_CHOOSECLASS="ВЫБЕРИТЕ СТАРТОВЫЙ НАБОР:";
+MNU_HDOPTIONS="НАСТРОЙКИ HD";
+MMNU_CHOOSECLASS="ВЫБЕРИТЕ СТАРТОВЫЙ НАБОР:";
+MNU_EPRANGE="Hideous Стрельбище";
 
 PLYRMNU_PLAYERCLASS="Стартовый набор";
 PLYRMNU_PLAYERGENDER="Местоимение";
@@ -94,21 +96,21 @@ OB_PUTTI="Пути пути пути пути, съедим вот и съели
 
 OB_HATCHLING="%o отключен детёнышем.";
 
-OB_TRILOBITE="%o вывернут Трилобитом.";
+OB_CACO="%o вывернут Трилобитом.";
 
-OB_COMBATSLUG="%o сожжён боевым слизнем.";
+OB_MANCUBUS="%o сожжён боевым слизнем.";
 
 OB_BONER="%o взорван костяшкой.";
 OB_BONERSLAP="%o забит костяшкой.";
 
-OB_TECHNOSPIDER="%o убит технопауком.";
+OB_BABY="%o убит технопауком.";
 
 OB_MATRIBITE="%o разделён на биты матрибитом.";
 OB_MATRIBITE_HIT="%o думал, что этот демон не будет атаковать в близи.";
 
 OB_NECROMANCER="%o познал мощь Некроманта.";
 
-OB_TECHNORANTULA="%o прооперирован Технотарантулом.";
+OB_SPIDER="%o прооперирован Технотарантулом.";
 
 OB_CYBER="%o стал жертвой для тестирования Трипода.";
 
