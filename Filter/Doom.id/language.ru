@@ -35,13 +35,5 @@ TAG_POTION="лечебный бутылёк";
 PICKUP_POTION="Поднял лечебный бутылёк.";
 POTION_TEXT1="\ct!!! \cnЗЕЛЬЕ \ct!!!\c-\n\n\nСозданно явно не людми.\n\nОсторожней.";
 
-
-
-CC_IMPM="imp fireballer";
-CC_IMPH="imp healer";
-OB_IMP="%o was marinated by the imps.";
-OB_IMP_HIT="%o was tenderized by the imps.";
-OB_IMPH_HIT="%o said I want a second opinion, so the imps said okay you're ugly too.";
-
 TAG_CANDLE="Свечка";
 PICKUP_CANDLE="Подобрана свечка.";
