@@ -349,7 +349,7 @@ MEDIKIT_TAKEOFF2=" сначала!\n\n(\cdhd_strip\c- в консоли)";
 MEDIKIT_OTHERNOWOUNDS="У пациента нет ранений.";
 MEDIKIT_OTHERNOBURNS="У пациента нет ожогов.";
 MEDIKIT_TARGETNOPED="Связь с целью потерена!";
-MEDIKIT_WOUNDSEALED="Раны успешно залечены.";
+MEDIKIT_WOUNDSEALED="Раны успешно закрыты.";
 MEDIKIT_AUTODIAGNOSTIC="\cdМед Авто диагностика включена.\c-\n\n\ccИдёт сканирование, ждите...";
 MEDIKIT_AUTODIAGNOSTICFAIL="\caСканирование не удалось.";
 MEDIKIT_AUTODIAGNOSTICFOR="Сканирование \cy\n";
@@ -381,7 +381,7 @@ BLOODBAG_YOUHAVE="У тебя";
 BLOODBAG_INJECTORIN=" уже есть перелеватель крови!";
 
 STIMPACK_NONEED="Пациенту это не нужно.";
-STIMPACK_NOTHINGTOBEDONE="Тут уже ничего ни сделать.\n\nВколоть себе? (нажмите Атаку)";
+STIMPACK_NOTHINGTOBEDONE="Здесь нет нужды в стимуляторе.\n\nВколоть себе? (нажмите Атаку)";
 STIMPACK_TAKEOFFOTHER="Скажите, снять ";
 STIMPACK_ELIPSES="...";
 STIMPACK_OVERDOSEPLAYER="Беги!!!\n\n%s пытается вызвать у тебя передозировку!";
