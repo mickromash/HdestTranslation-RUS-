@@ -119,3 +119,72 @@ FLW_RECMSGLEADWAY = "Куда надо топать?";
 FLW_RECMSGATYOURSERVIECE = "К вашим услугам.";
 FLW_RECMSGATYOURCOMMAND = "Жду приказаний.";
 FLW_RECMSGPOINTANDILLSHOOT = "Покажи куда, и я выстрелю.";
+
+//Menu
+FLW_OPTNSTITLE = "Опции HD Напарников";
+FLW_OPTNSCOMMNDCONTROL = "Открыть меню команд";
+FLW_OPTNSTITLE2 = "----- Геймплей и Поведение -----";
+
+FLW_OPTNSOHANAOPT = "Режим семьи";
+FLW_OPTNSOHANADESC1 = "Это опасный мир. Хорошая комадна всегда держится вместе.";
+FLW_OPTNSOHANADESC2 = "Напарники погибают если остаются одни на протяжении большого времени, и их трупы мгновенно сжирают монстры.";
+FLW_OPTNSOHANADESC3 = "То как долго они протянут зависит от количества живых монстров.";
+
+FLW_OPTNSBRASSOPT = "Собирать латунь";
+
+FLW_OPTNSUNCOUNTOPT = "Не игнорировать неважные цели";
+FLW_OPTNSUNCOUNTDESC1 = "По умолчанию, монстры не засчитывающиеся в счётчик убийств игнорируются напарниками.";
+FLW_OPTNSUNCOUNTDESC2 = "Даная опция позволяет отключить это. Для примера, напарники не обращают внимания";
+FLW_OPTNSUNCOUNTDESC3 = "на гражданских из Strife."
+
+FLW_OPTNSTARGRANGEOPT = "Дальность виденья целей";
+FLW_OPTNSDESC1 = "На некоторых картах выбор целей может сильно нагружать процессор. Если у вас есть проблемы с производительностью,";
+FLW_OPTNSDESC2 = "попробуйте уменьшить эту настройку. Расстояние измеряется в метрах.";
+
+FLW_OPTNSAUTOPLACEOPT = "Автоматически спавнить напарника";
+FLW_OPTNSAUTOPLACEDESC1 = "Обычно напарники перемещаются в ваш инвентарь перед выходом с уровня,";
+FLW_OPTNSAUTOPLACEDESC2 = "а после спавнятся рядом с вами на следующем уровне.";
+
+FLW_OPTNSQUICKACCESSOPT = "Быстрый доступ";
+FLW_OPTNSQUICKACCESSDESC = "Смотря на напарника вы автоматически откроете меню его управления. Максимальное расстояние 20м.";
+
+FLW_OPTNSQUICKSELOPT = "Быстрый выбор";
+FLW_OPTNSQUICKSELDESC = "Letting go of modifier keys after making a selection automatically applies it.";//???
+
+FLW_OPTNSFLWTITLE = "----- Напарники -----";
+FLW_OPTNSCSTMFLW = "Пользовательский напарник";
+
+FLW_OPTNSVISUALTITLE = "----- Аудио/Визуал -----";
+FLW_OPTNSUISCALEOPT = "Маштаб меню";
+FLW_OPTNSUICOLOPT = "Цвет меню";
+FLW_OPTNSCHATOPT = "Сообщения в чате";
+FLW_OPTNSVOICEOPT = "Голосовые сообщения";
+FLW_OPTNSIDLECOMOPT = "Болтовня";
+FLW_OPTNSIDLECOMDESC1 = "Голосовые/текстовые сообщения которые напарники будут иногда отправлять во время движения.";
+FLW_OPTNSIDLECOMDESC2 = "Голосовые сообщения, при их наличии, будут в приоритете над текстовыми.";
+
+FLW_OPTNSLOADOUTFREYLIS = "Опции напарника - Фрейлис";
+FLW_OPTNSLOADOUTBALTHAZAR = "Опции напарника - Бальтазар";
+FLW_OPTNSLOADOUTVALNOS = "Опции напарника - Валнос";
+FLW_OPTNSLOADOUTDAINA = "Опции напарника - Дэйна";
+FLW_OPTNSLOADOUTSEWIE = "Опции напарника - Сью";
+FLW_OPTNSLOADOUTNARI = "Опции напарника - Нари";
+
+FLW_OPTNSENABLEED = "Включить";
+FLW_OPTNSTELEPORTTOPLAYER = "Переместить к игроку";
+FLW_OPTNSRESETFLW = "Перезапустить напарника";
+FLW_OPTNSLOADOUT = "Набор:";
+
+FLW_OPTNSCUSTOMTITLE = "Меню пользовательских напарников";
+FLW_OPTNSCUSTOMDESC1 = "Здесь будут настройки пользовательских напарников.";
+FLW_OPTNSCUSTOMDESC2 = "Убедитесь что вы их загрузили.";
+FLW_OPTNSAVAILABLEFLW = "----- Доступные Напарники -----";
+
+FLW_MENUTITLE = "HD Напарники";
+
+FLW_OPTNSPRINTLVL1 = "Никакие";
+FLW_OPTNSPRINTLVL2 = "Критические";
+FLW_OPTNSPRINTLVL3 = "Важные";
+FLW_OPTNSPRINTLVL4 = "Все";
+
+TAG_Valnos = "Валнос";
