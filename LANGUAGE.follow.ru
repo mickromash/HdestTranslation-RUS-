@@ -95,6 +95,7 @@ FLW_CMDINPUTS2 = "\c[Fire]wpn\n\c[DarkGray]Поддерживает множес
 FLW_CMDINPUTS3 = "\c[Fire]### \c[Brick][d]\n\c[DarkGray]Поддерживает множественный выбор: \c[Red]Нет\n\c[DarkGray]Описание: \c[White]Переход в режим подбора предметов. Ввести снова для отмены. Если добавить \c[Brick]d\c[White], будет выброшен надетый предмет.\n\c[DarkGray]Поддерживаемые коды: \c[Fire]arm\c- (Броня), \c[Fire]rad\c- (Защитный Костюм), \c[Fire]bak\c- (Рюкзак), \c[Fire]psg\c- (Генератор Щита)\n";
 FLW_CMDINPUTS4 = "\c[Fire]rmv \c[Green]<название>/<индекс>\n\c[DarkGray]Поддерживает множественный выбор: \c[Red]Нет\n\c[DarkGray]Описание: \c[White]Опусташает оружие и убирает его из списка. Оружие не будет выброшено!\n";
 FLW_CMDINPUTS5 = "\c[Fire]swp \c[Green]<индекс1> <индекс2>\n\c[DarkGray]Поддерживает множественный выбор: \c[Red]Нет\n\c[DarkGray]Описание: \c[White]Меняет оружие.\n";				
+FLW_CMDINPUTS6 = "\c[Fire]cam\n\c[DarkGray]Поддерживает множественный выбор: \c[Red]Нет\n\c[DarkGray]Описание: \c[White]Включает камеру закреплённую на напарнике. Выберите любое оружие чтобы выключить\n";
 
 //Handler
 FLW_DONTLEAVE1 = "\c[White]Не стоит оставлять ваших друзей.\c-\n\n\c[White]Активируйте переключатель снова, чтобы выйти с уровня и оставить ";
