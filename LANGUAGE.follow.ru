@@ -23,7 +23,7 @@ FOLLOWER_SQUAD_7 = "Даггер Форс";
 FOLLOWER_SQUAD_8 = "Отряд 141";
 FOLLOWER_SQUAD_9 = "Сицилийцы";
 
-FLW_OBTFRIENDLY = "%s suffered friendly fire from %s, but friendly fire, isn't.";
+FLW_OBTFRIENDLY = "игрок %s пострадал от дружеского огня напарника %s, а дружеский огонь нет.";
 
 FLW_HIMU = "Его";
 FLW_HIM = "его";
